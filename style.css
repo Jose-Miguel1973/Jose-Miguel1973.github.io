@@ -1,30 +1,46 @@
 body {
-  padding-top: 25px;
-  margin: 0px;
-    color:
+  padding-top: 50px;;
+    text-align: center;
+}
+
+.ctext {
+    text-align: center; 
+    margin: 0px 
 }
  
-html {
-    background-color: ;
+.united {
+    margin: 50px 200px;
+    background-color: blueviolet;
+    border-radius: 17px;
+}
+
+ html{
+    background-image: url(background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .navBar {
     z-index: 1000;
 }
 .logo-title {
-  width: 100%;
-  height: 0px;
+  margin: 0px 1000px
+    background-color: blueviolet;
 }
 
 .HIV {
-    text-align: left;
-    width: 80vw;
-    margin: 0px 20vw 0px 0px;
+    text-align: center;
 }
 
+h1 {
+    background-color: blueviolet;
+    margin: 0px 400px;
+    border-radius: 25px;
+    
+}
 
-
-body {margin:0;}
+body {margin:0;
+text-align: center;!important}
 
 ul {
   list-style-type: none;
@@ -55,4 +71,8 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #4CAF50;
+}
+
+p {
+    font-size: 20px;
 }
