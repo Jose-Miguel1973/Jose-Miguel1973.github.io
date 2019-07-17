@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>What is HIV?</title>
+        <style>
+          body {
+margin: 0px;
+}
+
+.searching {
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  flex-flow: wrap;
+}
+.searching > div {
+  padding: 5vh;
+  flex: 1;
+  text-align: center;
+}
+.searching > div:hover {
+  background: black;
+}
+.searching > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.img-one {
+  background-image: url("https://userfiles.steadyhealth.com/userfiles/157134/articles/blood_cell_count.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid black 1vw;
+  border-left: solid black 1vw;
+  border-right: solid black 1vw;
+  border-bottom: solid black 1vw;
+}
+.img-one-opaque {
+  padding: 21vw;
+  background-color: rgba(0,0,0,0.6);
+}
+.hiv-title-one {
+  color: white;
+  font-size: 8vw;
+  text-align: center;
+  margin: 0px;
+}
+.hiv-intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1em;
+    margin-top: 2%;
+}
+.img-div-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-two {
+    width: 300px;
+    border: groove dimgray 2vw;
+}
+.hiv-text {
+  display: flex;
+  align-items: center;
+}
+.text-one-span {
+  font-size: 45px;
+  line-height: 1vw;
+}
+.hiv-intro-two {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 2em;
+  margin-top: 2%;
+}
+.img-three {
+  width: 300px;
+  border: groove dimgray 2vw;
+}
+.img-four {
+  width: 180px;
+  border: dashed 7px;
+  border-radius: 180px;
+  margin: 1vw;
+  padding: 5px;
+}
+.img-div-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hiv-intro-three {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+  margin-top: 2%;
+}
+@media screen and (max-width: 880px) {
+    .hiv-intro-three {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+}
+.hiv-text-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-one-hone {
+  font-size: 32px;
+  margin: 0px;
+}
+.e-symptoms {
+  margin: 0px;
+}
+.l-symptoms {
+  margin: 0px;
+}
+.symptom {
+  margin: 1vw;
+}
+.img-five {
+  width: 120px;
+  border: dashed 7px;
+  border-radius: 180px;
+  margin: 1vw;
+  padding: 5px;
+}
+.hiv-text-transmission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.transmit-type {
+  margin-bottom: 5vh;
+}
+.hiv-intro-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-resource {
+  font-size: 30px;
+}
+.text-resource-link {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 20px;
+}
+.img-one-other {
+  background-image: url("http://www.kerriesiegl.com/wp-content/uploads/2019/06/Community-144653342.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid black 1vw;
+  border-left: solid black 1vw;
+  border-right: solid black 1vw;
+  border-bottom: solid black 1vw;
+}
+.hiv-intro-five {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1em;
+  margin-top: 2%;
+}
+.hiv-intro-five-p-one > p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.hiv-intro-five-p-two > p {
+  margin-top: 0px;
+}
+.info-for-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-list{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+  grid-gap: 1em;
+  margin-top: 2%;
+}
+.info {
+  width: 100%;
+}
+.beginning {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1em;
+  margin-top: 2%;
+}
+.beginning-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.beginning-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+        </style>
+    </head>
+    <body>
+        <div class="beginning">
+          <div class="beginning-text">
+            <h1>Latinos United</h1>
+            <p>We'll stand together against HIV.</p>
+          </div>
+          <div class="beginning-img">
+            <img src="assets/logo.png">
+          </div>
+        </div>
+          <nav class="searching">
+              <div><a class="active" href="index.html" >Home</a></div>
+              <div><a href="background.html" >Background</a></div>
+              <div><a href="prototype.html" >Prototype</a></div>
+              <div><a href="contact.html" >Contact</a></div>
+          </nav>
+        <div class="img-one">
+            <div class="img-one-opaque">
+                <h1 class="hiv-title-one">What is HIV?</h1>
+            </div>
+        </div>
+        <div class="hiv-intro">
+            <div class="hiv-text">
+              <p><span class="text-one-span">HIV is </span> short for human immunodeficiency virus. Like the name suggests, the virus affects the human's immune system, and it can lead to serious complications if left untreated. Those complications would be a result of HIV advancing until it reaches its third stage which is when a person is said to have AIDS or acquired immune deficiency syndrome. HIV is not like other viruses because it is one that the body cannot completely get rid of. In other words, once you have it, it will always be with you.</p>
+            </div>
+            <div class="img-div-one">
+              <img class="img-two" src="https://images.theconversation.com/files/195865/original/file-20171122-6027-1oe0fkn.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip">
+            </div>
+        </div>
+        <hr>
+        <div class="hiv-intro-two">
+            <div class="div-text-one">
+                <h1 class="text-one-hone">How it affects the body:</h1>
+                <p class="text-one">The HIV virus targets the immune system by going for the T-cells. The virus kills these cells by hijacking them and making them burst or by using up all its resources until it explodes. These T-cells are an important part of the self-defense system within the human body, so when these cells get killed off, the body lacks the defense it needs to protect itself from common illnesses and disease. AIDs happen as a result of too many of these T-cells being killed off. At this point, the common cold would cause severe effects on the body.</p>
+            </div>
+            <div class="img-div-one">
+                <img class="img-three" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/HIV-budding-Color.jpg">
+            </div>
+        </div>
+        <hr>
+        <div class="hiv-intro-three">
+            <div class="hiv-text-four">
+                <h1 class="text-one-hone">Symptoms:</h1>
+                    <h2 class="text-symptom-e">Early:</h2>
+                    <ul class="e-symptoms">
+                        <li class="symptom">Just flu-like symptoms</li>
+                    </ul>
+                    <h2 class="text-symptom-e">Later (AIDS):</h2>
+                    <ul class="l-symptoms">
+                        <li class="symptom">Thrush</li>
+                        <li class="symptom">Bad yeast infections</li>
+                        <li class="symptom">Getting bad infections a lot</li>
+                        <li class="symptom">Sore throat</li>
+                        <li class="symptom">Feeling really tired, dizzy, and lightheaded</li>
+                        <li class="symptom">Losing lots of weight quickly</li>
+                        <li class="symptom"><a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hiv-aids/what-are-symptoms-hivaids">More</a></li>
+                    </ul>
+            </div>
+            <div class="img-div-three">
+                <img class="img-four" src="https://msfocusmagazine.org/getattachment/Magazine/Magazine-Items/Posted/Dizziness-and-Vertigo-in-MS/Feelingdizzy-1024x876-sq-(1).jpg.aspx?width=300&height=300">
+                <img class="img-four" src="https://www.quickanddirtytips.com/sites/default/files/images/1870/weight-loss.png">
+                <img class="img-four" src="https://cdn1.medicalnewstoday.com/content/images/articles/320/320621/throat-ulcers.jpg">
+            </div>
+            <div class="hiv-text-transmission">
+                <h1 class="text-one-hone">Ways of transmission</h1>
+                <ol>
+                    <li class="transmit-type">Sharing of bodily fluids through sex</li>
+                    <li class="transmit-type">Sharing needles even tattoo needles</li>
+                    <li class="transmit-type">Getting prick by a HIV contaminated needle</li>
+                    <li class="transmit-type">Parental Transmission: Mother to child</li>
+                </ol>
+            </div>
+            <div class="img-div-three">
+              <img class="img-five" src="https://static.thenounproject.com/png/225604-200.png">
+              <img class="img-five" src="http://cdn.onlinewebfonts.com/svg/img_190981.png">
+              <img class="img-five" src="https://png.pngtree.com/svg/20161201/a57745c18b.svg">
+            </div>
+        </div>
+        <hr>
+        <div class="hiv-intro-four">
+            <h1 class="text-resource">Resources for HIV</h1>
+            <a class="text-resource-link" href="https://www.plannedparenthood.org/">Planned Parenthood</a>
+            <a class="text-resource-link" href="https://www.hiv.gov/hiv-basics/starting-hiv-care/find-a-provider/locate-a-hiv-care-provider">Hiv.gov</a>
+            <a class="text-resource-link" href="https://hab.hrsa.gov/get-care/state-hivaids-hotlines">HRSA.gov</a>
+            <a class="text-resource-link" href="https://hivcare.org/">Hivcare.org</a>
+        </div>
+        <hr>
+        <div class="img-one-other">
+            <div class="img-one-opaque">
+                <h1 class="hiv-title-one">Our Problem</h1>
+            </div>
+        </div>
+        <div class="hiv-intro-five">
+            <div class="hiv-intro-five-p-one">
+              <p>HIV/AIDS is a problem for everyone, but certain communities like the Latino community are affected way more than other ethnicities. Reasons for this problem would be the unawareness of it which lead to more of its spread, the stigma around STDs within the Latino community which lead to these problems not being addressed, the social factors like language or documentation status which limits the access Latinos have to resources, and finally the prevalence of STDs within the Latino population which increases the spread of HIV.
+              <br>
+              <br>
+              Our group has conducted several interviews to a diverse group of UC Berkeley students, and we questioned them on whether they think HIV is well informed to the public. The majority of them stated that they did not think HIV is well informed to the public. If even the general public which is usually educated are not well informed about HIV, the situation is worse for much of the Latino community since they face several barriers that others may not have. We also asked about whether they have thought about going to get tested for HIV, and the majority stated that they did not think about doing that. Populations including the Latino population have this similar mindset of just not considering to know for sure about their HIV status.</p>
+            </div>
+            <div class="hiv-intro-five-p-two">
+              <p>In 2016, around 10,500 Latinos were infected with HIV, but only 9,831 Latinos were diagnosed. There is a clear and big difference between the two amounts. A lot of Latinos did not know that they had HIV, so unintentional spread is still very much a big cause for much of the spread of HIV. New HIV infections in the Latino population in the U.S. from 2010-2016 have been remained fairly stable at around 10,000 per year, but it is still clear to see that the Latino HIV infected has been going up little by little per year. The HIV diagnoses of the Latino population from 2010-2016 have also remained stable at around 10,000 per year, but these numbers are still less than the estimated total of new HIV infections among Latinos. It's obvious that many Latinos still need to get the resources they need.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="info-for-more">
+            <h1 class="info-hone">More information on HIV in the Latino population</h1>
+            <div class="info-list">
+                <div>
+                    <img class="info" src="assets/infograph1.png">
+                </div>
+                <div>
+                    <img class="info" src="assets/infograph2.png">
+                </div>
+                <div>
+                    <img class="info" src="assets/infograph3.png">
+                </div>
+                <div>
+                    <img class="info" src="assets/infograph4.png">
+                </div>
+                <div>
+                    <img class="info" src="assets/infograph5.png">
+                </div>
+                <div>
+                    <img class="info" src="assets/infograph6.png">
+                </div>
+            </div>
+        <div>
+    </body>
+
+</html>
