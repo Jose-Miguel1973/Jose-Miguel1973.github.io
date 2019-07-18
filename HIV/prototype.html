@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>prototype</title>
     <style>
 .img-one {
@@ -49,7 +49,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+  border: solid 5px;
+  border-radius: 45px;
+  height: 30vh;
+  width: 35vw;
+  margin-left: 5px;
+  }
+
 .red-line {
   color: red;
 }
@@ -58,14 +64,36 @@
 }
 .green-line {
   color: green;
+  padding-right: 10px;
 }
 .graph-part {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .graph-every {
   display: flex;
   flex-direction: column;
+}
+hr {
+  height: 2px;
+  width: 100%;
+}
+.design-text {
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+.design-img {
+  width: 50vw;
+  border: groove dimgray 20px;
+}
+.graph-title {
+  text-align: center;
+}
+.graph-part > img {
+  border: groove dimgray 5px;
 }
     </style>
   </head>
@@ -93,26 +121,29 @@
       <hr>
       <div class="everything-here">
         <h2><b>First Design</b></h2>
-        <img src="HIV/assets/screenshot1.png" alt="Theuglyfirstone" style="width:600px;height:400px;">
-        <p> Our prototype is a clinic targeted towards the latinoX community. Our Clinic is called, "Latino United" Our clinic goal is to make a safe and easy access clinic for Latino's. It'll be somewhere any latino can go. We won't ask for any government information like document status. The image above is our very rough draft of how the clinic will look like. With this clinic we will be able to provide help with HIV. HIV percentage level in the Latino Community is slowly rising. there are many types of tactics to fight against HIV that are accessable if you have the money. Latino United will make those resources much more accesable for latinoX. the picture above was a very rough sketch of what we wanted the clinic to look. We wanted a simple building to illustrate hwo simple a clinic should be. </p>
+        <img class="design-img" src="assets/screenshot1.png" alt="Theuglyfirstone">
+        <p class="design-text">  Our prototype is a clinic targeted towards the Latino community. Our Clinic is called, "Latinos United" Our goal is to provide a safe and easy access clinic for the Latino Community. It'll be in areas where there are large populations of Latinos. We won't ask for any government information like document status. The image above is our very rough draft of how the clinic will look like. With this clinic we will be able to provide help with HIV. HIV percentage level in the Latino Community is slowly rising. There are many types of tactics to fight against HIV that are accessable if you have the money. Latino United will make those resources much more accessible for Latinos. The picture above was a very rough sketch of what we wanted the clinic to look. We wanted a design to illustrate what our simple clinics should look like.  </p>
         <hr>
         <h1>Second Design</h1>
-        <img src="HIV/assets/screenshot2.png" alt="Thesexyone" style="width:600px;height:400px;">
-        <p> The image above is our final design of the clinic. The clinic's goal is to target Latinos and help them fight off HIV. This clinic will do that by providing them with facts of HIV, early prevention tactics, medication, and testing. With our clinic, we will also help educate the Latino population about the facts of HIV. This is only a simple 3D design of our clinic. One day we will want to make it into a real building. We will have the clinics located in Richmond, California. The Latino population is rising within the Bay Area. We will first start off within the Bay Area. Eventually, we could expand more nation-wide to help all Latinos in the United States. Within the clinic, we would have different sections Latino's would go where they identify the most. So say there will be a specific department helping the undocumented Latino community, or there is an LGBTQ Latino community. We will make all visit confidential so that your information is safe. We will make sure that the same resources that are offered to other ethnicities are offered to the Latino community.  There is a lot of myths of wrong information spread about HIV in any community. This clinic will have a simple 3-4 day program about all the facts of HIV. With educating the latino population about HIV then people will have the knowledge to help prevent themselves against it. With medications our clinic will help with making the medications much more reasonable. The overall goal of the clinic is to just help out the latino community. Our purpose is to serve the latino population when it comes to HIV.</p>
-<div class="graph-every">
-        <div class="graph-part">
-          <img src="HIV/assets/graph2.png" alt="nuttygraph" style="width: 50vw;">
-          <div class="legend">
-            <h4><b>Legend</b></h4>
-            <ul>
-              <li class="red-line">Estimated total of HIV infections</li>
-              <li class="blue-line">Number of HIV diagnosis</li>
-              <li class="green-line">Number of HIV diagnosis after our solutions</li>
-            </ul>
+        <img class="design-img" src="assets/screenshot2.png" alt="Thesexyone">
+        <p class="design-text">The image above is our final design of the clinic. The clinic's goal is to target Latinos and help them fight off HIV. This clinic will do that by providing them with facts of HIV, early prevention tactics, medication, and testing. With our clinic, we will also help educate the Latino population about the facts of HIV. This is only a simple 3D design of our clinic. The plan is to make this model into reality. We will have the clinics located in Richmond, California. The Latino population is rising within the Bay Area. We will first start off within the Bay Area. Eventually, we could expand more nation-wide to help all Latinos in the United States. Within the clinic, we would have different sections Latino's would go where they identify the most. So say there will be a specific department helping the undocumented Latino community, or there is an LGBTQ Latino community. We will make all visit confidential so that your information is safe. We will make sure that the same resources that are offered to other ethnicities are offered to the Latino community. There is a lot of myths of wrong information spread about HIV in any community. This clinic will have a simple 3-4 day program about all the facts of HIV. With educating the latino population about HIV then people will have the knowledge to help prevent themselves against it. With medications our clinic will help with making the medications much more reasonable. The overall goal of the clinic is to just help out the latino community. Our purpose is to serve the latino population when it comes to HIV.</p>
+        <hr>
+        <div class="graph-every">
+          <h1 class="graph-title">Our Graph</h1>
+          <div class="graph-part">
+            <img src="assets/graph2.png" alt="nuttygraph" style="width: 70vw; margin-bottom: 10px;">
+            <div class="legend">
+              <h4><b>Legend</b></h4>
+              <ul>
+                <li class="red-line">Estimated total of HIV infections</li>
+                <li class="blue-line">Number of HIV diagnosis</li>
+                <li class="green-line">Number of HIV diagnosis after our solutions</li>
+              </ul>
+            </div>
           </div>
-        </div>
-          <p>This graph portrays three lines that each represents a part of the Latino population. The red line represents the linear path that is followed by the previous estimated totals of new HIV-infected Latinos from 2010-2016. The blue line represents the linear path of the number of HIV diagnosis in the Latino population from 2010-2017. The green line represents the linear path followed by the number of diagnosis after introducing our solution. You could see that the amount of HIV diagnosis does not match the estimated total, so that means that many HIV-infected Latinos are going around undiagnosed. We want that to not be the case in the future, so we made our solution to improve on that. Our prototype's purpose is make the green line happen. We want more Latinos to seek medical attention when they need it, and our solution is going to do that by making that medical attention more accessible.</p>
+          <p class="design-text">This graph portrays three lines that each represents a part of the Latino population. The red line represents the linear path that is followed by the previous estimated totals of new HIV-infected Latinos from 2010-2016. The blue line represents the linear path of the number of HIV diagnosis in the Latino population from 2010-2017. The green line represents the linear path followed by the number of diagnosis after introducing our solution. You could see that the amount of HIV diagnosis does not match the estimated total, so that means that many HIV-infected Latinos are going around undiagnosed. We want that to not be the case in the future, so we made our solution to improve on that. Our prototype's purpose is make the green line happen. We want more Latinos to seek medical attention when they need it, and our solution is going to do that by making that medical attention more accessible.</p>
         </div>
       </div>
   </body>
 </html>
+
