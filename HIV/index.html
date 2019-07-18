@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-    
-    
+
+
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
       <title>What is HIV?</title>
         <style>
 body {
@@ -14,38 +14,57 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
-.ctext {
-    text-align: center; 
-    margin: 0px 
-}
- 
-.united {
-    margin: 50px 200px;
-    background-color: ;
-    border-radius: 17px;
-}
-
 .beginning-text > p {
     text-align: left;
-            }
-.smash {
-display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
 .img-one-opaque {
   padding: 21vw;
   background-color: rgba(0,0,0,0.6);
 }
-
 .united-text {
     font-size: 20px;
 }
+.hiv-intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 2em;
+    margin-top: 10%;
+    padding: 15px;
+    border: dotted 10px;
+    border-radius: 45px;
+    background-color: rgba(0,0,0,0.5);
+}
+.img-div-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-two {
+    width: 33vw;
+    border: solid white;
+    border-width: 10px 10px 75px 10px;
+    box-shadow: 10px 10px 5px;
+}
+.hiv-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border-radius:45px;
+
+}
+.hiv-text > h1 {
+  margin-bottom: 5px;
+}
       </style>
-      
+
   </head>
-    
+
     <body>
         <div class="beginning">
           <div class="beginning-text">
@@ -56,25 +75,24 @@ display: flex;
             <img src="assets/betterlogo.png">
           </div>
         </div>
-        
         <nav class="searching">
               <div><a href="index.html" >Home</a></div>
               <div><a href="background.html" >Background</a></div>
               <div><a href="prototype.html" >Prototype</a></div>
               <div><a href="groupcontacts.html" >Contact</a></div>
           </nav>
-<div class = "ctex">
-    
-    <div class = "title"> 
-        <h1>Welcome To Latinos United</h1>
+<div class="hiv-intro">
+    <div class="hiv-text">
+      <h1>Welcome To Latinos United</h1>
+      <p>The idea of Latino's United was created by Eric Nguyen, Andres Martinez, Diego Ortega, and Jose Miguel Romero. The formation of this idea started from an assignment given to us in a program that we attended called SMASH, and it was for final project about finding solutions to certain communities that have problems caused communicable diseases. We chose to help the Latino community in accessing the information regarding HIV. In this website you will find most of the information in the background section where we have information on HIV and infographics. Latinos United will currently start in Richmond and as time progresses will move through out the bay. At Latinos United you will be able to get information on HIV, a prototype we are working on to help combat HIV among the Latino community, and ways to contact us.</p>
     </div>
-    <div class= "united">
-            <p class="united-text">Latino's United is a clinic created by Eric Nguyen, Andres Martinez, Diego Ortega, and Jose Miguel Romero. We go to the SMASH program and this website was created as a final project to help the Latino community access information regarding HIV. In this website you will find most of the information in the background section where we have information on HIV and infographics. Latinos United will currently start in Richmond and as time progresses will move through out the bay. At Latinos United you will be able to get information on HIV, a prototype we are working on to help combat HIV among the Latino community, and ways to contact us.</p>
-        </div>
+    <div class="img-div-one">
+      <img class="img-two" src="https://opportunitydesk.org/wp-content/uploads/2018/02/Summer-Math-and-Science-Honors-Academy-SMASH-Program-2018.jpg">
     </div>
-        
-        
+</div>
+
+
     </body>
-      
+
 </html>
 
