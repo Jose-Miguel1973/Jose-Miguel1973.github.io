@@ -65,23 +65,39 @@ p {
     text-align:justify;
 }
 }
-
 .form{
     border-color:navy
 }
-
         .everything{
             display: flex;
             flex-direction: column;
             align-items:  center;
             text-align: center;
         }
-        #diego {
+        .container {
             margin: 50px 200px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;
+            width: 75%;
         }
-        .diegotext{
+        .everyone{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            
+        }
+        .text{
             text-align: center;
+        }
+        button{
+            border-top: 2px solid;
+            background-color: white;
+            border-top-color: blueviolet;
         }
         </style>
         </head>
@@ -111,8 +127,35 @@ p {
          
 <div class = "everything">
          <div class = "container" id = "diego">
-    <img src = "diego_CS.png" width="250" height="250">
-             <p class="diegotext">My name is diego Ortega. head designer. I am 14 years old currently attending Smash Berkeley. My hobbies are playing the trumpet and the trombone. I play in a Mariachi and in a banda. I still don't know what I want to do in the future but hopefully I'll gain inspiration by meeting new successful people.</p>
+    <img src = "assets/diego.png" width="250" height="250">
+             
+             <p class="text">My name is Diego Ortega, head designer. I am 14 years old and currently attending Smash Berkeley. My hobbies are playing the trumpet and the trombone. I play in a Mariachi and in a banda. I still don't know what I want to do in the future but hopefully I'll gain inspiration by meeting new successful people.</p>
+             
         <h1>Contact Diego Ortega!</h1>
+             
+             <form class = "everyone" method="POST" action="https://formspree.io/diego.ortega@scholar.smash.org">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Test Message"></textarea>
+  <button type="submit">Send Test</button>
+</form>
+    </div>
+             <div class = "container" id = "eric">
+                 <img src = "assets/eric.png" width="250" height="250">
+                 
+                 <p class = "text">Hello, my name is Eric Ha Nyguen. head leader and head infographic maker.</p>
+             
+             
+             <h1>Contact Eric Nyguen!</h1>
+             <form class = "everyone" method="POST" action="https://formspree.io/eric.nyguen@scholar.smash.org">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Test Message"></textarea>
+  <button type="submit">Send Test</button>
+</form>
+    </div>
+    
+    <div class = "container" id = "andres">
+        <img src="assets/antes.png" width="250" height="250">
+        <p class = "text">Hello, my name is Andres Martinez, head marketer. I am 15 years old from San Rafael High School. I play water polo and I also do swimming. I like to do a lot of mountain biking when I have the time. I still do not know what I want to do in the future but I for sure I know my job won't be in an office.</p>
+        
     </div>
          </div>
