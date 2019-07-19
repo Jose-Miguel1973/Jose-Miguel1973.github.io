@@ -57,5 +57,10 @@ body {
     font-size: 20px;
     color: blueviolet;
 }
-
+.font-one {
+    font-family: 'Roboto', sans-serif;
+}
+.font-two {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
