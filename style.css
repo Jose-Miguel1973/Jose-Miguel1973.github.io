@@ -1,5 +1,5 @@
 html {
-  background: url(red-blue.svg) no-repeat center center fixed;
+  background: url(assets/red-blue.svg) no-repeat center center fixed;
   -webkit-background-size: 100%;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -49,22 +49,37 @@ li a:hover:not(.active) {
 body {
   padding-top: 25px;
 }
-
+.one {
+  display: flex;
+  justify-content: space-around;
+}
+.two {
+  display: flex;
+  justify-content: space-around;
+}
 .wrapper {
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: row;
   width: 250px;
   height: 250px;
 }
 .wrapper2 {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: row;
   width: 250px;
   height: 250px;
+  justify-content: space-around;
+}
+.six {
+  display: flex;
+
 }
 
 iframe {
   display: flex;
   flex-direction: column;
-
 }
