@@ -53,6 +53,7 @@ body {
 .wrapper {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   flex-direction: row;
   width: 250px;
   height: 250px;
