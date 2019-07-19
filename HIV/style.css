@@ -3,7 +3,7 @@ body {
 }
 
 .searching {
-  background-color: rgba(0,0,0,0.6);
+  background-color: darkviolet;
   display: flex;
   flex-flow: wrap;
 }
@@ -13,7 +13,9 @@ body {
   text-align: center;
 }
 .searching > div:hover {
-  background: black;
+    background: purple;
+    border: solid lavenderblush 10px;
+    padding: 20px;
 }
 .searching > div > a {
   text-decoration: none;
@@ -39,3 +41,20 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
+.beginning-first {
+  background-color: white;
+}
+.beginning-text > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: blueviolet;
+  margin-bottom: 0px;
+}
+.beginning-text > p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
